@@ -1,0 +1,22 @@
+{
+  "name": "parking_lot_main",
+  "version": "1.0.0",
+  "description": "Parking_lot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Ravindra Dhaka",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "lodash": "^4.17.21",
+    "metalogger": "^2.2.1",
+    "mysql": "^2.18.1",
+    "redis": "^3.1.2",
+    "request": "^2.88.2"
+  }
+}
