@@ -79,7 +79,8 @@ var responseStatus = {
   correctUser : {
       "statusCode" : 200,
       "status" : true,
-      "message" : "User Created"
+      "message" : "User Created",
+      "parkingManagerid" : ""
   }
 }
 

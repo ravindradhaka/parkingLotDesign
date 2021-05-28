@@ -172,8 +172,10 @@ module.exports = {
 						console.log(err);
 						throw err;
 					}
+					console.log("rows",rows.insertId);
+					responseStatus.correctUser.parkingManagerid =rows.insertId;
 					res.send(responseStatus.correctUser);
-					console.log("Parking Created");
+					console.log("User Created");
 			});
 			dbc.closeConn(con);
 	}
